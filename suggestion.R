@@ -68,3 +68,7 @@ View(DF)
 
 # look at missing values
 SmartEDA::ExpData(customers, type=2)
+
+
+
+# 5-10: to be continued
