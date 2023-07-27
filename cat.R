@@ -108,7 +108,7 @@ model <- train(x = trainer[,1:60],
                method = catboost.caret, 
                trControl = fitControl, 
                tuneLength = 5,
-               metric = "ROC")
+               metric="Rsquared")
 #predict using caret:
 
 preds1 <- predict(model, tester, type = "prob")
